@@ -1,0 +1,21 @@
+body{
+    font-family: 'Simonetta', cursive;
+    margin-top: 50px;
+}
+
+.max-viewport{
+    min-height: 100vh;
+}
+
+.transparent {
+    background: rgba(41, 1, 13, 0.7)
+}
+
+#banner, #portfolio, #social{
+    background: linear-gradient(rgba(80, 0, 36, 0.6), rgba(80, 0, 36, 0.6)), url(images/banner-person.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
